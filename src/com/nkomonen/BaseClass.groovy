@@ -1,8 +1,10 @@
 package com.nkomonen
 
-class BaseClass {
 
-    def doTheThing() {
-        echo "Doing the thing"
-    }
+
+def doTheThing() {
+    echo "Doing the thing"
 }
+
+return this
+
