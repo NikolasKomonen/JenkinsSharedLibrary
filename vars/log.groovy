@@ -10,5 +10,7 @@ def warning(message) {
 
 def cereal() {
     def c = new Cereal()
-    c.doCereal()
+    String message = c.doCereal()
+
+    echo "Received message: " + message
 }
